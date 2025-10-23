@@ -130,7 +130,6 @@
         <avrgcc.linker.libraries.Libraries>
           <ListValues>
             <Value>libm</Value>
-            <Value>libATxmega32A4U-1.13.a</Value>
           </ListValues>
         </avrgcc.linker.libraries.Libraries>
         <avrgcc.linker.libraries.LibrarySearchPaths>
@@ -145,6 +144,7 @@
         </avrgcc.assembler.general.IncludePaths>
         <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
       </AvrGcc>
+      <Value>libATxmega32A4U-1.15.a</Value>
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
