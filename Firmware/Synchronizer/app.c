@@ -28,7 +28,7 @@ void hwbp_app_initialize(void)
     uint8_t hwH = 1;
     uint8_t hwL;
     uint8_t fwH = 1;
-    uint8_t fwL = 7;
+    uint8_t fwL = 8;
     uint8_t ass = 0;
     
     io_pin2in(&PORTB, 3, PULL_IO_UP, SENSE_IO_EDGES_BOTH);
